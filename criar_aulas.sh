@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Número de pastas extras a criar (pode passar como argumento ou alterar manualmente aqui)
+# Número de pastas adicionais a serem criadas
 extras=$1
 
 if [ -z "$extras" ]; then
-  echo "Uso: $0 <quantidade de pastas extras>"
+  echo "Uso: $0 <quantidade de pastas adicionaiss>"
   exit 1
 fi
 
